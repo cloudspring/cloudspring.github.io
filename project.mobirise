@@ -5,10 +5,11 @@
     "theme": {
       "name": "purity",
       "title": "PurityM",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 1,
+    "uniqCompNum": 20,
     "versionPublish": "4.3.2",
     "favicon": "@PROJECT_PATH@/assets/images/cloud-icon-152-202312-128x128.png",
     "noImageResize": ""
@@ -18,7 +19,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "CloudSpring, CloudSpringFamily, Cloud Spring Family, 운춘, 운춘펜션, 강화도 운춘펜션",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -28,7 +29,7 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
@@ -52,7 +53,202 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-0"
+          "_anchor": "header1-0",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8492-2000x1500.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "title": "Relax<br>",
+                "contentAlign": "right",
+                "text": "Cloud Spring Family house is located in a warm area <br>with mountains and view of the horizon of the sea.<br>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8140-2000x1500.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Beaty of sunset",
+                "contentAlign": "left",
+                "text": "It is located in a warm area with mountains and view of the horizon of the sea.<br>The beautiful sunset on the sea varies on seasons will remain forever in the hearts &nbsp;of you<br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/d-2000x1500.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Winter",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1",
+          "_styles": {
+            "H2": {
+              "color": "#fbf2be",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#feeaba",
+              "text-align": "left",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#edafae",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/cloudspringfamily/?fref=ts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.facebook.com/cloudspringfamily/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"http://blog.naver.com/cloudspring_family\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\">Blog</a> ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-c"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Standard Room",
+          "caption1": "Forget-me-not<br>Violet<br><br>Weekdays 100,000<br>Friday to Sunda 140,000<br>Peak season 160,000",
+          "title2": "Family Room",
+          "caption2": "Dandelion<br>Garden balsam<br>Rose moss<br><br>Weekdays 120,000<br>Friday to Sunda 160,000<br>Peak season 220,000",
+          "title3": "Club Room",
+          "caption3": "Wild chrysanthemum<br>Indian lilac<br>Narcissus<br><br>Weekdays 180,000<br>Friday to Sunda 220,000<br>Peak season 260,000",
+          "title4": "* Condition *&nbsp;",
+          "caption4": "Peak season<br>&nbsp;Jul-Aug, Dec-Fe<br><br>Room capacity<br>Standard: 2(3)<br>Family: 4(6)<br>Club: 6(10)",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "30, Haeannam-ro 2470beon-gil, Hwado-myeon, Ganghwa-gun, Incheon, 23061, Republic of Korea",
+              "placeId": "ChIJsZqmQqiJezURP6Rp6k44mME",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>30, Haeannam-ro 2470beon-gil, Hwado-myeon, Ganghwa-gun, Incheon, 23061, Republic of Korea<br><br>\n<strong>Contacts</strong><br>\nEmail: cloudpsring.family@gmail.com<br>\nPhone: +82 10 4831 9593",
+          "text2": "<p><strong>Account</strong></p><p><strong>Wooribank</strong></p><p><strong>126-306350-02-201</strong></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-d"
+        },
+        {
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#ffffff",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">CloudSpring</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-e",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          }
         }
       ]
     }

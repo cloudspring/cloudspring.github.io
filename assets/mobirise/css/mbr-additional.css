@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+#header1-0 H1 {
+  text-align: center;
+}
+#slider-1 H2 {
+  color: #fbf2be;
+  text-align: center;
+}
+#slider-1 P {
+  color: #feeaba;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+#menu-e .navbar-toggler {
+  color: #000;
+}
