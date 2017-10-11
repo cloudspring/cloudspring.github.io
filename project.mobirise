@@ -56,7 +56,8 @@
           "_anchor": "header1-0",
           "_styles": {
             "H1": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#ffffff"
             }
           }
         },
