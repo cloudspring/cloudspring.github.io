@@ -191,13 +191,13 @@
             "overlayOpacity": 0.5
           },
           "title1": "Standard Room",
-          "caption1": "Forget-me-not<br>Violet<br><br>Weekdays 100,000<br>Friday to Sunda 140,000<br>Peak season 160,000",
+          "caption1": "Forget-me-not<br>Violet<br><br>Weekdays 100,000<br>Friday to Sunday 140,000<br>Peak season 160,000",
           "title2": "Family Room",
-          "caption2": "Dandelion<br>Garden balsam<br>Rose moss<br><br>Weekdays 120,000<br>Friday to Sunda 160,000<br>Peak season 220,000",
+          "caption2": "Dandelion<br>Garden balsam<br>Rose moss<br><br>Weekdays 120,000<br>Friday to Sunday 160,000<br>Peak season 220,000",
           "title3": "Club Room",
-          "caption3": "Wild chrysanthemum<br>Indian lilac<br>Narcissus<br><br>Weekdays 180,000<br>Friday to Sunda 220,000<br>Peak season 260,000",
+          "caption3": "Wild chrysanthemum<br>Indian lilac<br>Narcissus<br><br>Weekdays 180,000<br>Friday to Sunday 220,000<br>Peak season 260,000",
           "title4": "* Condition *&nbsp;",
-          "caption4": "Peak season<br>&nbsp;Jul-Aug, Dec-Fe<br><br>Room capacity<br>Standard: 2(3)<br>Family: 4(6)<br>Club: 6(10)",
+          "caption4": "Peak season<br>&nbsp;Jul-Aug, Dec-Feb<br><br>Room capacity<br>Standard: 2(3)<br>Family: 4(6)<br>Club: 6(10)",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -224,7 +224,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>30, Haeannam-ro 2470beon-gil, Hwado-myeon, Ganghwa-gun, Incheon, 23061, Republic of Korea<br><br>\n<strong>Contacts</strong><br>\nEmail: cloudpsring.family@gmail.com<br>\nPhone: +82 10 4831 9593",
+          "text1": "<strong>Address</strong><br>30, Haeannam-ro 2470 beon-gil, Hwado-myeon, Ganghwa-gun, Incheon, 23061, Republic of Korea<br><br>\n<strong>Contacts</strong><br>\nEmail: cloudpsring.family@gmail.com<br>\nPhone: +82 10 4831 9593",
           "text2": "<p><strong>Account</strong></p><p><strong>Wooribank</strong></p><p><strong>126-306350-02-201</strong></p><p><strong>DO YOUNGTAE</strong></p>",
           "alias": "purity/components",
           "_tags": [
