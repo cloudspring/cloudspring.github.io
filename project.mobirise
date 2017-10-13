@@ -236,9 +236,9 @@
         {
           "_params": {
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#ffffff",
